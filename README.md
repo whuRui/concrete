@@ -10,14 +10,14 @@
 - tifffile
 - maturin
 
-```
+```bash
 pip install numpy tifffile maturin
 ```
 
 ## 使用
 
 
-```
+```bash
 # build release rust code.
 maturin build --release
 
